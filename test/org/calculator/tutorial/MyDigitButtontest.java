@@ -7,6 +7,7 @@ import junit.framework.TestCase;
 public class MyDigitButtontest extends TestCase {
 	
 	public void testIsInString() {
+		// Tes the IsInString method
 		MyCalculator  mc1 = new MyCalculator("FrameTextHere1");
 		MyDigitButton mdb = new MyDigitButton(1000, 1000, 1000, 1000, "Test", mc1);
 		
