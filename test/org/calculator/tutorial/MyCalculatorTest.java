@@ -4,15 +4,17 @@ import junit.framework.TestCase;
 
 public class MyCalculatorTest extends TestCase {
 
+	// Test the constructor
 	public void testMyCalculator() {
-		MyCalculator mc1 = new MyCalculator("FrameTextHere");
+		MyCalculator mc1 = new MyCalculator("FrameTextHereABC");
 
-		assertEquals ("FrameTextHere", mc1.getTitle());
+		assertEquals ("FrameTextHereABC", mc1.getTitle());
 		
 		assertTrue (mc1.setClear);
 
 	}
 
+	// Test getFormattedText method
 	public void testGetFormattedText() {
 		MyCalculator mc2 = new MyCalculator("FrameTextHere");
 		
