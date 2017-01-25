@@ -6,9 +6,10 @@ import junit.framework.TestCase;
 
 public class MyDigitButtontest extends TestCase {
 	
+	// Thorough test of isInString method
 	public void testIsInString() {
 		// Test the IsInString method
-		MyCalculator  mc1 = new MyCalculator("FrameTextHere1");
+		MyCalculator  mc1 = new MyCalculator("FrameTextHere2");
 		MyDigitButton mdb = new MyDigitButton(1000, 1000, 1000, 1000, "Test", mc1);
 		
 		// find X (uppercase) in the string - uppercase succesful search
@@ -32,6 +33,7 @@ public class MyDigitButtontest extends TestCase {
 		assertFalse(mdb.isInString("ThisIsAWappingStringWithAnYInsideofit", 'y'));
 	}
 
+	// Test for actionPerformed method
 	public void testActionPerformed() {
 		MyCalculator  mc2 = new MyCalculator("FrameTextHere2");
 		assertTrue (mc2.setClear);
