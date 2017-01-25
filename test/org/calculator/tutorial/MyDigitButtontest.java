@@ -33,6 +33,7 @@ public class MyDigitButtontest extends TestCase {
 		assertFalse(mdb.isInString("ThisIsAWappingStringWithAnYInsideofit", 'y'));
 	}
 
+	// Test for actionPerformed method
 	public void testActionPerformed() {
 		MyCalculator  mc2 = new MyCalculator("FrameTextHere2");
 		assertTrue (mc2.setClear);
