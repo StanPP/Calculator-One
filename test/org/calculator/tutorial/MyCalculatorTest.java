@@ -6,9 +6,9 @@ public class MyCalculatorTest extends TestCase {
 
 	// Test the constructor
 	public void testMyCalculator() {
-		MyCalculator mc1 = new MyCalculator("FrameTextHereABC");
+		MyCalculator mc1 = new MyCalculator("FrameTextHereXYZ");
 
-		assertEquals ("FrameTextHereABC", mc1.getTitle());
+		assertEquals ("FrameTextHereXYZ", mc1.getTitle());
 		
 		assertTrue (mc1.setClear);
 
